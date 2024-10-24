@@ -1,6 +1,6 @@
-# flutter_boilerplate_code
+# AI-Camera Flutter
 
-A new Flutter project.
+Goal of this project to build a camera using ML_KIT and Kaggle for finding physical measurement of different object. 
 
 ## Getting Started
 
