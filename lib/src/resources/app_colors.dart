@@ -7,17 +7,17 @@ class AppColors {
   static const Color textColorDark = Color(0xFFFAFAFA);
 
   //light mode
-  static const Color primaryColorLight = Color(0xFF344955);
-  static const Color secondaryColorLight = Color(0xFFF9AA33);
+  static const Color primaryColorLight = Color(0xFF4ABD38);
+  static const Color secondaryColorLight = Color(0xFFe9f7e7);
   static const Color cardColorLight = Color(0xFFFFFFFF);
   static const Color surfaceColorLight = Color(0xFFFFFFFF);
   static const Color onPrimaryColorLight = Color(0xFFFFFFFF);
   static const Color onErrorColorLight = Color(0xFF000000);
-  static const Color onSurfaceColorLight = Color(0xFF000000);
-  static const Color onBackgroundColorLight = Color(0xFF000000);
-  static const Color onSecondaryColorLight = Color(0xFF000000);
-  static const Color backgroundColorLight = Color(0xFFEEF0F2);
-  static const Color scaffoldColorLight = Color(0xFFEEF0F2);
+  static const Color onSurfaceColorLight = Color(0xFFFFFFFF);
+  static const Color onBackgroundColorLight = Color(0xFFFFFFFF);
+  static const Color onSecondaryColorLight = Color(0xFFFFFFFF);
+  static const Color backgroundColorLight = Color(0xFFFFFFFF);
+  static const Color scaffoldColorLight = Color(0xFFFFFFFF);
   static const Color errorColorLight = Color(0xFFFF4C5D);
 
   //dark mode
@@ -46,7 +46,7 @@ class AppColors {
   static const Color offWhiteColor = Color(0xffB9B9BB);
   static const Color orangeColor = Color(0xffFD650D);*/
 
-  //#region MUSEIQ Color Palette
+  //#region Color Palette
   static const Color red = Color(0xffCC2B51);
   static const Color green = Color(0xffB2EE96);
   //static const Color accentPurple = Color(0xff43127B);  //use primaryColor instead

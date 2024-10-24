@@ -7,9 +7,9 @@ class Debugger{
     if(kDebugMode){
       //only show console messages in Debug-Mode
       if(statusCode==null){
-        sl<Logger>().i(title,data,);
+        sl<Logger>().i("Title: $title\nResult: $data",);
       }else{
-        sl<Logger>().i(title,"Response-Code: $statusCode\nResponse-Body: $data",);
+        sl<Logger>().i("Title: $title\nResponse-Code: $statusCode\nResult: $data",);
       }
     }
   }
@@ -18,9 +18,9 @@ class Debugger{
     if(kDebugMode){
       //only show console messages in Debug-Mode
       if(statusCode==null){
-        sl<Logger>().i(title,data,);
+        sl<Logger>().i("Title: $title\nResult: $data",);
       }else{
-        sl<Logger>().i(title,"Response-Code: $statusCode\nResponse-Body: $data",);
+        sl<Logger>().i("Title: $title\nResponse-Code: $statusCode\nResult: $data",);
       }
     }
   }
@@ -29,9 +29,9 @@ class Debugger{
     if(kDebugMode){
       //only show console messages in Debug-Mode
       if(statusCode==null){
-        sl<Logger>().i(title,data,);
+        sl<Logger>().i("Title: $title\nResult: $data",);
       }else{
-        sl<Logger>().i(title,"Response-Code: $statusCode\nResponse-Body: $data",);
+        sl<Logger>().i("Title: $title\nResponse-Code: $statusCode\nResult: $data",);
       }
     }
   }
