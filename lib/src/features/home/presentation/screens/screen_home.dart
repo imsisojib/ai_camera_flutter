@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_boilerplate_code/main.dart';
@@ -73,10 +75,18 @@ class _ScreenHomeState extends State<ScreenHome> {
                   data: permission,
                 );
                 if (!permission) {
+                  Fluttertoast.showToast(msg: "Please allow camera permissions");
+                  openAppSettings();
                   return;
                 }
 
-                Navigator.pushNamed(context, Routes.cameraScreen);
+                if(Platform.isIOS){
+                  Navigator.pushNamed(context, Routes.arScreenIos);
+                }else{
+                  Navigator.pushNamed(context, Routes.arScreenAndroid);
+                }
+
+                //Navigator.pushNamed(context, Routes.cameraScreen);
               },
               icon: Container(
                 padding: const EdgeInsets.symmetric(
