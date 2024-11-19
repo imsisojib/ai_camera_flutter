@@ -3,6 +3,8 @@ import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_boilerplate_code/main.dart';
+import 'package:flutter_boilerplate_code/src/features/camera/ar/presentation/screens/screen_distance_tracking_ios.dart';
+import 'package:flutter_boilerplate_code/src/features/camera/ar/presentation/screens/screen_measurement_ios.dart';
 import 'package:flutter_boilerplate_code/src/helpers/debugger_helper.dart';
 import 'package:flutter_boilerplate_code/src/resources/app_colors.dart';
 import 'package:flutter_boilerplate_code/src/resources/app_images.dart';
@@ -81,7 +83,11 @@ class _ScreenHomeState extends State<ScreenHome> {
                 }
 
                 if(Platform.isIOS){
-                  Navigator.pushNamed(context, Routes.arScreenIos);
+                  //Navigator.pushNamed(context, Routes.arScreenIos);
+                  Navigator.push(context, MaterialPageRoute(builder: (_){
+                    //return DistanceTrackingPage();
+                    return MeasurePage();
+                  }));
                 }else{
                   Navigator.pushNamed(context, Routes.arScreenAndroid);
                 }
