@@ -56,6 +56,7 @@ dependencies:
   #arkit_flutter_plugin: ^0.0.11
   arkit_plugin: ^1.1.0
   arcore_flutter_plugin: ^0.1.0
+  vector_math: ^2.1.2
 
 dev_dependencies:
   flutter_test:
